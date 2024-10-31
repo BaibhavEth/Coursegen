@@ -7,6 +7,8 @@ from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA, LLMChain
 from langchain.prompts import PromptTemplate
+import streamlit as st
+
 
 # Set your OpenAI API key
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
