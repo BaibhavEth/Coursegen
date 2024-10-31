@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA, LLMChain
 from langchain.prompts import PromptTemplate
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 def process_pdf(file_path):
     print("Processing PDF...")
     loader = PyPDFLoader(file_path)
