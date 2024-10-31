@@ -6,7 +6,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import DocArrayInMemorySearch  # Replace FAISS import
-mport streamlit as st
+import streamlit as st
 
 
 # Set your OpenAI API key
