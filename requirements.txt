@@ -4,3 +4,4 @@ pypdf
 openai
 streamlit_agraph
 graphviz
+docarray
