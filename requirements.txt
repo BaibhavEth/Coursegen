@@ -3,3 +3,4 @@ langchain-community
 pypdf
 openai
 streamlit_agraph
+graphviz
